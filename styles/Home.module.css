@@ -1,3 +1,26 @@
+@import "https://unpkg.com/modern-normalize@0.7.0/modern-normalize.css";
+
 .twemoji {
   width: 1em;
+}
+
+.main {
+  max-width: 768px;
+  margin: 0 auto 0;
+  padding: 3em;
+
+  display: grid;
+  grid-template: repeat(auto-fill, minmax(100px, 1fr)) / 1fr;
+  gap: 2em;
+}
+
+.pageLink {
+  border: 1px solid #e2e8f0;
+  padding: 1em;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.pageLink p {
+  color: #a0aec0;
 }
