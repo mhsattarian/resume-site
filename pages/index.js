@@ -37,11 +37,11 @@ export default function Home({ blocks, pages }) {
       </Head>
       <div className={styles.main}>
         <NotionRenderer blockMap={blocks} />
-        {pages.map((post) => (
-          <Link href="/[slug]" as={`/${post.slug}`}>
+        {pages.map((page) => (
+          <Link href="/[slug]" as={`/${page.slug}`} key={page.id}>
             <div className={styles.pageLink}>
-              <h3>{post.title}</h3>
-              <p>{post.preview}</p>
+              <h3>{page.title}</h3>
+              <p>{page.preview}</p>
             </div>
           </Link>
         ))}
