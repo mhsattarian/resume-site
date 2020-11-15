@@ -8,10 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "9.5.1",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "react-notion": "^0.7.3",
-    "react-twemoji": "^0.2.3"
+    "next": "10.0.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-notion": "^0.8.2",
+    "react-twemoji": "^0.3.0"
   }
 }
