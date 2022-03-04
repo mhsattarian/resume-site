@@ -5,7 +5,7 @@ import Twemoji from "react-twemoji";
 import styles from "../styles/Home.module.css";
 
 // const NOTION_BLOG_ID = "Mohammad-H-Sattarian-eb87a8ab1acc49f69e8ac1bb597ad0b2";
-const NOTION_BLOG_ID = "d1102f5a57f2499688be7dc3658c1883";
+const NOTION_BLOG_ID = "776b73b76fb44f21a5dadfeb1861106c";
 
 export const getAllPosts = async () => {
   return await fetch(
